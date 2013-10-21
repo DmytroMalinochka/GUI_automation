@@ -1,0 +1,61 @@
+:Analyze.subMenu_CleanAnalysisResults	{objectName='menuClean_Analysis_Results' type='QMenu' visible='0' window=':MainWindow.menu_Analyze'}
+:Analyze.subMenu_FileBasedAnalysis	{objectName='menuFile_Based_Analisys' type='QMenu' visible='0' window=':MainWindow.menu_Analyze'}
+:Analyze.subMenu_ProjectBasedAnalysis	{objectName='menuProject_Based_Analysis' type='QMenu' visible='0' window=':MainWindow.menu_Analyze'}
+:Analyze.subMenu_RawSourceAnalysis	{objectName='menuRaw_Source_Analysis' type='QMenu' visible='0' window=':MainWindow.menu_Analyze'}
+:Analyze.subMenu_RunAllAnalysis	{objectName='menuPerform_All_Analysis' type='QMenu' visible='0' window=':MainWindow.menu_Analyze'}
+:Help.subMenu_PAL	{title='pal' type='QMenu' unnamed='1' visible='0' window=':MainWindow.menu_Help'}
+:Help.subMenu_QAC	{title='qac' type='QMenu' unnamed='1' visible='0' window=':MainWindow.menu_Help'}
+:Help.subMenu_QACPP	{title='qacpp' type='QMenu' unnamed='1' visible='0' window=':MainWindow.menu_Help'}
+:MainWindow	{objectName='MainWindow' type='PRQA::UI::GUI::Workplace::MainWindow' visible='1'}
+:MainWindow.button_CheckUnchekSuppressions	{container=':MainWindow.pane_AnalysisResults' occurrence='6' type='QToolButton' unnamed='1' visible='1'}
+:MainWindow.button_FileBasedCurrentProject	{text='File-based Analysis of current project' type='QToolButton' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.button_FileBasedOfFileName	{text?='File-based Analysis of *' type='QToolButton' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.button_FileBasedSpecifiedFiles	{text='File-based Analysis of specified files' type='QToolButton' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.button_NewProject	{text='New Project' type='QToolButton' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.button_SaveAll	{text='Save All' type='QToolButton' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.button_ShowHideErrors	{container=':MainWindow.pane_AnalysisResults' text='Show/hide diagnostics with error messages' type='QToolButton' unnamed='1' visible='1'}
+:MainWindow.button_ShowHideUserMessages	{container=':MainWindow.pane_AnalysisResults' text='Show/hide diagnostics with user messages' type='QToolButton' unnamed='1' visible='1'}
+:MainWindow.button_ShowHideWarnings	{container=':MainWindow.pane_AnalysisResults' text='Show/hide diagnostics with warning messages' type='QToolButton' unnamed='1' visible='1'}
+:MainWindow.button_WithSubmessages	{container=':MainWindow.pane_AnalysisResults' text='With submessages' type='QToolButton' unnamed='1' visible='1'}
+:MainWindow.label_Count	{container=':MainWindow.pane_AnalysisResults' text?='Count*' type='QLabel' unnamed='1' visible='1'}
+:MainWindow.menuBar_MenuBar	{objectName='menuBar' type='QMenuBar' visible='1' window=':MainWindow'}
+:MainWindow.menu_Admin	{objectName='Admin' title='Admin' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_Analyze	{objectName='Analyze' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_CheckUncheckSuppressions	{type='QMenu' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.menu_Help	{objectName='Help' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_Project	{objectName='Project' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_Report	{objectName='menuReport' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_Upload	{objectName='Upload' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.menu_View	{objectName='View' title='View' type='QMenu' visible='0' window=':MainWindow'}
+:MainWindow.pane_AnalysisResults	{objectName='AnalysisResultsListDock' type='PRQA::UI::GUI::Dock::AnalysisResultsListDock' visible='1' window=':MainWindow'}
+:MainWindow.tabBar_Files	{aboveWidget=':MainWindow.treeParent_Files' type='QTabBar' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.tabBar_MessageLevels	{aboveWidget=':MainWindow.treeParent_MessageLevels' type='QTabBar' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.tabBar_RuleGroups	{aboveWidget=':MainWindow.treeParent_RuleGroups' type='QTabBar' unnamed='1' visible='1' window=':MainWindow'}
+:MainWindow.toolBar_AnalysisResults	{container=':MainWindow.pane_AnalysisResults' type='QToolBar' unnamed='1' visible='1'}
+:MainWindow.treeParent_Files	{objectName='ProjectTreeDockWindow' type='PRQA::UI::GUI::Dock::ProjectTreeDockWindow' visible='1' window=':MainWindow'}
+:MainWindow.treeParent_MessageLevels	{objectName='ComponentMessageTreeDockWindow' type='PRQA::UI::GUI::Dock::ComponentMessageTreeDockWindow' visible='1' window=':MainWindow'}
+:MainWindow.treeParent_RuleGroups	{objectName='RuleMessageTreeDockWindow' type='PRQA::UI::GUI::Dock::RuleMessageTreeDockWindow' visible='1' window=':MainWindow'}
+:MainWindow.widget_ProjectList	{objectName='ProjectsListDockWindow' type='PRQA::UI::GUI::Dock::ProjectsListDockWindow' visible='1' window=':MainWindow'}
+:MainWindow.widget_RecentProjects	{objectName='RecentProjectsDockWindow' type='PRQA::UI::GUI::Dock::RecentProjectsDockWindow' visible='1' window=':MainWindow'}
+:MainWindow.widget_WorkingArea	{objectName='qt_tabwidget_stackedwidget' type='QStackedWidget' visible='1' window=':MainWindow'}
+:Upload.subMenu_UploadToQAVerify	{objectName='menuUpload_Results_to_QA_Verify' type='QMenu' visible='0' window=':MainWindow.menu_Upload'}
+:Upload.subMenu_UploadToS101	{objectName='menuUpload_Results_to_Structure101_Project' type='QMenu' visible='0' window=':MainWindow.menu_Upload'}
+:WelcomePage	{container=':MainWindow.widget_WorkingArea' type='QScrollArea' unnamed='1' visible='1'}
+:WelcomePage.list_RecentProjects	{clip='false' container=':listView_ListView' enabled='true' type='Item' unnamed='1' visible='true'}
+:WelcomePage.tab_Components	{container=':_QDeclarativeView' id='componentsTab' type='TabHeader' visible='true'}
+:WelcomePage.tab_GetStarted	{container=':_QDeclarativeView' id='getStartedTab' type='TabHeader' visible='true'}
+:WelcomePage.tab_LatestNews	{container=':_QDeclarativeView' id='latestNewsTab' type='TabHeader' visible='true'}
+:WelcomePage.tab_Videos	{container=':_QDeclarativeView' id='howToVideosTab' type='TabHeader' visible='true'}
+:_QDeclarativeView	{container=':WelcomePage' type='QDeclarativeView' unnamed='1' visible='1'}
+:headerView_AnalyzsisResultsList	{container=':tree_AnalysisResultsList' orientation='1' type='QHeaderView' unnamed='1' visible='1'}
+:listView_ListView	{clip='false' container=':_QDeclarativeView' enabled='true' id='listView' type='ListView' unnamed='1' visible='true'}
+:list_ProjectList	{container=':MainWindow.widget_ProjectList' objectName='projectListView' type='QListView' visible='1'}
+:list_RecentProjects	{container=':MainWindow.widget_RecentProjects' objectName='recentProjectsListView' type='QListView' visible='1'}
+:table_ProjectProperties	{container=':MainWindow.widget_ProjectList' objectName='projectPropertiesView' type='QTableView' visible='1'}
+:table_SummaryFiles	{container=':MainWindow.treeParent_Files' objectName='summaryTableView' type='QTableView' visible='1'}
+:table_SummaryMessage	{container=':MainWindow.treeParent_MessageLevels' objectName='summaryTableView' type='QTableView' visible='1'}
+:table_SummaryRule	{container=':MainWindow.treeParent_RuleGroups' objectName='itemSummaryTableView' type='QTableView' visible='1'}
+:tree_AnalysisResultsList	{container=':MainWindow.pane_AnalysisResults' objectName='treeView' type='QTreeView' visible='1'}
+:tree_Files	{container=':MainWindow.treeParent_Files' objectName='projectExplorerTreeView' type='QTreeView' visible='1'}
+:tree_MessageLevels	{container=':MainWindow.treeParent_MessageLevels' objectName='componentMessageTreeView' type='QTreeView' visible='1'}
+:tree_RuleGroups	{container=':MainWindow.treeParent_RuleGroups' objectName='ruleMessageTreeView' type='QTreeView' visible='1'}
